@@ -1,0 +1,15 @@
+{
+  "name": "anime-discord-bot-v1",
+  "version": "1.0.0",
+  "description": "Professional Discord anime bot with admin episode management",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.25.1",
+    "dotenv": "^16.6.1",
+    "mongoose": "^8.18.0"
+  }
+}
